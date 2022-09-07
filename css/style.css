@@ -1,0 +1,31 @@
+
+/* Utilies styles css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header css */
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.carousel-item img {
+  height: 500px;
+}
+
+.carousel-text-description {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+    top: 0;
+}
+
+.company-container img {
+    width: 150px;
+}
