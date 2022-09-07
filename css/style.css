@@ -29,3 +29,8 @@ body {
 .company-container img {
     width: 150px;
 }
+.social-icon a {
+    background: #242424;
+    height: 40px;
+    width: 40px;
+}
