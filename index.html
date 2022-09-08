@@ -33,16 +33,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Home</a>
+                <a class="nav-link active" href="#" aria-current="page">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Courses</a>
+                <a href="#courses" class="nav-link">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Success</a>
+                <a href="#success" class="nav-link">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">About</a>
+                <a href="#companies" class="nav-link">Partners</a>
+              </li>
+              <li class="nav-item">
+                <a href="#question" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -53,7 +59,8 @@
                 aria-label="Search"
               />
               <button class="btn btn-success" type="submit">Search</button>
-            </form>
+            </form> &nbsp;
+            <a href="#register" class="btn btn-outline-info">Register</a>
           </div>
         </div>
       </nav>
@@ -61,7 +68,7 @@
     <!-- Header end here -->
 
     <!-- Banner area start here -->
-    <section class="container mb-5">
+    <section class="container mb-5 mt-3">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -155,7 +162,7 @@
     <!-- Banner area end here  -->
 
     <!-- Courses area start here -->
-    <section class="container mb-5 mt-5">
+    <section class="container mb-5 mt-5" id="courses">
       <div class="mx-5 text-center">
         <h2>Our Professional Course</h2>
         <p>
@@ -225,8 +232,8 @@
     <!-- Courses area end here -->
 
     <!-- Register area start here -->
-    <section class="container mb-5">
-      <div class="register-area bg-info p-5">
+    <section class="container mb-5 mt-3" id="register">
+      <div class="register-area bg-info p-5 mt-5">
         <div class="row align-items-center">
           <div class="col-12 col-sm-6 text-left">
             <h2 class="text-white">Ready to join?</h2>
@@ -318,7 +325,7 @@
     <!-- Register area end here -->
 
     <!-- Student list start here -->
-    <section class="container mb-5 mt-5">
+    <section class="container mb-5 mt-5" id="success">
       <h2>Meet Our Successful Students</h2>
       <p>
         It is a long established fact that a reader will be distracted by the
@@ -384,7 +391,7 @@
     <!-- Student list ended here -->
 
     <!-- Question and answer area start here -->
-    <section class="container mb-5 ">
+    <section class="container mb-5 mt-3" id="question">
       <div class="d-flex justify-content-center align-items-center">
         <div class="w-75">
           <h1 class="text-center">Frequently Asked Questions</h1>
@@ -429,7 +436,7 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="qHeadingFour">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="true" aria-controls="questionFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour"  aria-controls="questionFour">
                  What is semantic tag in HTML?
                 </button>
               </h2>
@@ -448,7 +455,7 @@
     <!-- Question and answer area ended here -->
 
     <!-- Companies start here -->
-    <section class="container company-container my-5 d-none d-lg-block">
+    <section class="container company-container my-5 d-none d-lg-block mt-3 mb-5" id="companies">
       <h2 class="my-5 text-center">Trusted by over 800+ companies</h2>
       <div class="d-flex justify-content-between">
         <div class="mx-3">
@@ -474,8 +481,7 @@
     <!-- Companies end here -->
 
     <!-- Footer start here -->
-    <footer
-      class="bg-dark p-4 d-flex justify-content-center align-items-center"
+    <footer class="bg-dark p-4 d-flex justify-content-center align-items-center mt-3" id="about"
     >
       <div class="text-white m-5 w-sm-25">
         <h1>Web Development</h1>
